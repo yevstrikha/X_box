@@ -53,7 +53,10 @@ header {
     font-family: "HelveticaNeue";
     color: white;
     opacity: 50%;
-    margin-right: 28px; }
+    margin-right: 28px;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 500; }
     header .navbar-light .navbar-nav .nav-link:hover {
       color: white;
       opacity: 100%; }
