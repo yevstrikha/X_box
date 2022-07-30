@@ -5,6 +5,47 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap; }
+h1 {
+  font-family: "HelveticaNeue";
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px; }
+
+h2 {
+  font-family: "HelveticaNeue";
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+  font-weight: 600; }
+
+h3 {
+  font-family: "HelveticaNeue";
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600; }
+
+h5 {
+  font-family: 'HelveticaNeue';
+  font-size: 18px;
+  line-height: 21px; }
+
+.btn {
+  margin-top: 135px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  border: none;
+  padding: 9px 22px;
+  transition: 0.5s;
+  font-family: "HelveticaNeue";
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400; }
+  .btn:hover {
+    background: #8DD83D; }
+
 header {
   background: #373A3C;
   padding: 11px 0; }
@@ -58,6 +99,16 @@ header {
     display: inline-block;
     color: #8DD83D;
     transform: rotate(270deg);
+    font-size: 25px; }
+  .owl-carousel .owl-dots {
+    display: none; }
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    height: 50px;
+    width: 65px; }
+  .owl-carousel .owl-nav button.owl-next {
     position: absolute;
     top: 50%;
     right: 1%;
@@ -72,45 +123,65 @@ header {
     display: inline-block;
     color: #8DD83D;
     transform: rotate(90deg);
-    position: absolute;
-    top: 50%;
-    left: 1%;
-    font-size: 25px;
-    height: 50px;
-    width: 65px; }
+    font-size: 25px; }
   .owl-carousel span {
     display: none; }
-  .owl-carousel h2 {
-    font-family: "HelveticaNeue";
-    font-size: 36px;
-    line-height: 42px;
-    color: white;
-    font-weight: 600; }
-  .owl-carousel h3 {
-    font-family: "HelveticaNeue";
-    color: white;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    margin-bottom: 134px; }
   .owl-carousel .owl-text {
     position: absolute;
     top: 200px;
     right: 15%; }
-    .owl-carousel .owl-text .btn {
-      background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-      border-radius: 4px;
-      border: none;
-      padding: 9px 22px;
-      transition: 0.5s;
+    .owl-carousel .owl-text p {
       font-family: "HelveticaNeue";
       color: white;
-      font-size: 16px;
-      line-height: 21px;
-      font-weight: 400; }
-      .owl-carousel .owl-text .btn:hover {
-        background: #8DD83D; }
+      font-size: 14px;
+      line-height: 16px; }
     .owl-carousel .owl-text .btn-primary {
       margin-right: 13px; }
+
+.value {
+  background: #5f6366;
+  background: -moz-linear-gradient(top, #5f6366 0%, #373a3c 100%);
+  background: -webkit-linear-gradient(top, #5f6366 0%, #373a3c 100%);
+  background: linear-gradient(to bottom, #5f6366 0%, #373a3c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f6366', endColorstr='#373a3c',GradientType=0 );
+  padding-top: 64px;
+  padding-bottom: 162px;
+  text-align: center; }
+  .value .value_img {
+    margin-bottom: 16px; }
+  .value h2 {
+    margin-bottom: 43px; }
+  .value .value_cards {
+    justify-content: space-between; }
+    .value .value_cards .card {
+      border: solid 1px #8DD83D;
+      background-color: #fafafa; }
+      .value .value_cards .card .card-body h5 {
+        text-align: left;
+        color: #435766;
+        font-weight: 600; }
+      .value .value_cards .card .card-body h3 {
+        text-align: left;
+        color: #435766;
+        margin-top: 13px;
+        margin-bottom: 38px; }
+      .value .value_cards .card .card-body .btn {
+        margin-top: 0;
+        width: 100%;
+        background: #8DD83D;
+        padding: 19px 23px;
+        color: white;
+        font-family: "HelveticaNeue";
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 500; }
+        .value .value_cards .card .card-body .btn:hover {
+          background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%); }
+      .value .value_cards .card:nth-of-type(2) img {
+        padding: 53px 56px 66px; }
+      .value .value_cards .card:last-of-type img {
+        padding: 33px 59px; }
+      .value .value_cards .card img {
+        margin-bottom: 16px; }
 
 /*# sourceMappingURL=style.css.map */
