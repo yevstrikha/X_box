@@ -421,6 +421,7 @@ footer {
     .footer_social {
       display: flex;
       justify-content: center;
+      margin-bottom: 15px;
 
       .twitter {
         margin: 0 20px;
@@ -434,7 +435,7 @@ footer {
     background-color: #fff;
     margin: auto;
 
-    .policy{
+    .policy {
       display: flex;
       justify-content: space-between;
       padding-top: 19px;
@@ -449,5 +450,29 @@ footer {
         }
       }
     }
+  }
+}
+
+
+.navbar-light .navbar-toggler-icon {
+  background: none;
+  border-top: solid 2px #8DD83D;
+  border-bottom: solid 2px #8DD83D;
+
+
+  //&:before {
+  //  content: '-';
+  //  display: block;
+  //  height: 2px;
+  //  width: 100%;
+  //  background-color: #8DD83D;
+  //}
+  &:after {
+    content: '-';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #8DD83D;
+    margin-top: 12px;
   }
 }

@@ -286,7 +286,8 @@ footer {
     text-align: center; }
     footer .col-md-6 .footer_social {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-bottom: 15px; }
       footer .col-md-6 .footer_social .twitter {
         margin: 0 20px; }
   footer .inner_line {
@@ -304,5 +305,17 @@ footer {
       footer .inner_line .policy .left p, footer .inner_line .policy .right p {
         color: #ffffff;
         margin-bottom: 0; }
+
+.navbar-light .navbar-toggler-icon {
+  background: none;
+  border-top: solid 2px #8DD83D;
+  border-bottom: solid 2px #8DD83D; }
+  .navbar-light .navbar-toggler-icon:after {
+    content: '-';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #8DD83D;
+    margin-top: 12px; }
 
 /*# sourceMappingURL=style.css.map */
