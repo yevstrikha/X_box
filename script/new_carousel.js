@@ -3,6 +3,7 @@ $('.exclusive-carousel').owlCarousel({
     nav:true,
     autoplay:true,
     autoplayTimeout:2500,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1,
@@ -18,3 +19,4 @@ $('.exclusive-carousel').owlCarousel({
         }
     }
 });
+

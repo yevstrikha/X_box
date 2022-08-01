@@ -1,7 +1,16 @@
 @media only screen and (max-width: 1199px) {
   .inner_line {
     width: 95%;
-    padding: 0 20px; } }
+    padding: 0 20px; }
+
+  .value .value_cards .card {
+    margin: 0 10px; }
+
+  .value .value_cards {
+    justify-content: center; }
+
+  .value .value_cards .card {
+    margin: 10px; } }
 @media only screen and (max-width: 1024px) {
   .exclusive .exclusive-carousel {
     margin: auto; }
@@ -9,19 +18,13 @@
   .video .row .treiler {
     height: 500px; } }
 @media only screen and (max-width: 992px) {
-  .value .value_cards .card {
-    margin: 10px; }
-
   .video .row .treiler {
     height: 400px; } }
 @media only screen and (max-width: 770px) {
   .value .value_cards .card {
-    margin: 0px; }
+    margin-bottom: 10px; }
 
-  .value .value_cards .card:nth-of-type(2) {
-    margin: 20px 0; }
-
-  .owl-carousel .owl-nav button {
+  .exclusive-carousel .owl-nav button {
     display: none; }
 
   .exclusive-card {
