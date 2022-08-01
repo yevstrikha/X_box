@@ -1,7 +1,9 @@
+body {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%); }
+
 .call_of_duty {
   padding-top: 99px;
-  padding-bottom: 109px;
-  background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%); }
+  padding-bottom: 109px; }
   .call_of_duty .row .col-md-6 {
     text-align: center;
     margin-bottom: 22px; }
@@ -14,5 +16,37 @@
   .call_of_duty .row .btn-secondary {
     background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
     margin-left: 15px; }
+
+.video {
+  padding: 80px 0; }
+  .video .row {
+    margin: 0 62px;
+    text-align: center; }
+    .video .row .treiler {
+      max-width: 890px;
+      width: 100%;
+      height: 560px; }
+
+.advertisement .row h2 {
+  color: #435766; }
+.advertisement .row .ad_img {
+  padding: 0 0 80px 0; }
+  .advertisement .row .ad_img img {
+    display: block;
+    width: 100%; }
+
+.specifications h2 {
+  color: #435766;
+  text-align: center;
+  margin-bottom: 47px; }
+.specifications p {
+  font-family: 'HelveticaNeue';
+  font-size: 21px;
+  line-height: 24px;
+  color: #435766;
+  font-weight: 600;
+  margin: 0; }
+.specifications .row:nth-of-type(2) {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=call_of_d.css.map */

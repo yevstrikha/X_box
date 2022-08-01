@@ -4,10 +4,16 @@
     padding: 0 20px; } }
 @media only screen and (max-width: 1024px) {
   .exclusive .exclusive-carousel {
-    margin: auto; } }
+    margin: auto; }
+
+  .video .row .treiler {
+    height: 500px; } }
 @media only screen and (max-width: 992px) {
   .value .value_cards .card {
-    margin: 10px; } }
+    margin: 10px; }
+
+  .video .row .treiler {
+    height: 400px; } }
 @media only screen and (max-width: 770px) {
   .value .value_cards .card {
     margin: 0px; }
@@ -22,7 +28,10 @@
     margin: auto;
     max-width: 200px !important; }
     .exclusive-card .btn {
-      margin-top: 35px; } }
+      margin-top: 35px; }
+
+  .video .row .treiler {
+    height: 400px; } }
 @media only screen and (max-width: 575px) {
   .design .container .row .col-lg-6 .btn-primary {
     max-width: 275px;
@@ -30,6 +39,22 @@
     margin-bottom: 15px; }
 
   footer .row {
-    text-align: center; } }
+    text-align: center; }
+
+  .call_of_duty {
+    padding-bottom: 35px; }
+    .call_of_duty .row h2 {
+      margin-bottom: 50px; }
+
+  .video {
+    padding: 35px 0; }
+    .video .row {
+      margin: 0; }
+
+  .video .row .treiler {
+    height: 200px; }
+
+  .specifications .row p {
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=media.css.map */

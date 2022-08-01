@@ -9,12 +9,28 @@
   .exclusive .exclusive-carousel{
     margin: auto;
   }
+  .video{
+    .row{
+      .treiler{
+        height: 500px;
+
+      }
+    }
+  }
 }
 
 
 @media only screen and (max-width: 992px) {
   .value .value_cards .card {
     margin: 10px;
+  }
+  .video{
+    .row{
+      .treiler{
+        height: 400px;
+
+      }
+    }
   }
 
 }
@@ -37,6 +53,14 @@
       margin-top: 35px;
     }
   }
+  .video{
+    .row{
+      .treiler{
+        height: 400px;
+
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -51,6 +75,37 @@
       text-align: center;
     }
   }
+  .call_of_duty{
+    padding-bottom: 35px;
+    .row{
+      h2{
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .video{
+    padding: 35px 0;
+    .row{
+      margin: 0;
+    }
+  }
+  .video{
+    .row{
+      .treiler{
+        height: 200px;
+
+
+      }
+    }
+  }
+.specifications{
+  .row{
+    p{
+      margin-bottom: 20px;
+    }
+  }
+
+}
 }
 
 @media only screen and (max-width: 375px) {
