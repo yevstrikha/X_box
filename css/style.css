@@ -204,6 +204,13 @@ header {
   .exclusive .exclusive-content {
     position: inherit;
     z-index: 2; }
+    .exclusive .exclusive-content .card-body .btn-primary {
+      background: #8DD83D;
+      margin-top: 43px;
+      width: 100%;
+      padding: 20px; }
+      .exclusive .exclusive-content .card-body .btn-primary:hover {
+        background-color: #4b880b; }
     .exclusive .exclusive-content .container {
       text-align: center; }
       .exclusive .exclusive-content .container .exclusive_btn {
@@ -219,7 +226,10 @@ header {
       max-width: 320px;
       width: 100%; }
   .exclusive .owl-nav button.owl-prev {
-    top: -17%; }
+    top: -23%; }
+  .exclusive .owl-nav button.owl-next {
+    top: -23%;
+    right: 10%; }
 
 .design {
   background: url(../images/design.jpg) no-repeat;
@@ -237,22 +247,22 @@ header {
   .design .container {
     position: inherit;
     z-index: 2; }
-    .design .container .row .col-6 p {
+    .design .container .row .col-lg-6 p {
       font-family: "HelveticaNeue";
       color: white;
       font-weight: 600;
       font-size: 48px;
       line-height: 56px;
       margin-bottom: 9px; }
-    .design .container .row .col-6 h3 {
+    .design .container .row .col-lg-6 h3 {
       font-weight: 500;
       margin-bottom: 37px; }
-    .design .container .row .col-6 .btn {
+    .design .container .row .col-lg-6 .btn {
       margin-top: 0;
       padding: 20px 23px;
       font-weight: 500;
       font-family: Arial, sans-serif; }
-    .design .container .row .col-6 .btn-primary {
+    .design .container .row .col-lg-6 .btn-primary {
       margin-right: 15px;
       max-width: 207px;
       width: 100%; }

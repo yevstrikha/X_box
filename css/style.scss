@@ -291,7 +291,15 @@ header {
   .exclusive-content {
     position: inherit;
     z-index: 2;
-
+    .card-body .btn-primary{
+      background: #8DD83D;
+      margin-top: 43px;
+      width: 100%;
+      padding: 20px;
+      &:hover{
+        background-color: #4b880b;
+      }
+    }
     .container {
       text-align: center;
 
@@ -310,19 +318,24 @@ header {
         max-height: 180px;
         max-width: 320px;
         width: 100%;
+
       }
     }
 
     .card-body {
       max-width: 320px;
       width: 100%;
+
     }
   }
 
   .owl-nav button.owl-prev {
-    top: -17%;
+    top: -23%;
   }
-}
+  .owl-nav button.owl-next {
+    top: -23%;
+    right: 10%;
+  }}
 
 
 .design {
@@ -346,7 +359,7 @@ header {
     z-index: 2;
 
     .row {
-      .col-6 {
+      .col-lg-6 {
         p {
           font-family: $main_font;
           color: white;

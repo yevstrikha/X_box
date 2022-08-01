@@ -3,13 +3,13 @@ $('.exclusive-carousel').owlCarousel({
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:1,
         },
         600:{
             items:3
         },
         1000:{
-            items:4,
+            items:3.9,
             margin:30,
             autoWidth:true
         }
