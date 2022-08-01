@@ -87,6 +87,8 @@ header {
   background: url(../images/Star-Wars.jpg) no-repeat;
   background-size: cover;
   height: 100vh; }
+  .main_screen .btn {
+    padding: 10px 20px; }
 
 .screen_one {
   background: url(../images/CoD-WWII.jpg) no-repeat;
