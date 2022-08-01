@@ -63,7 +63,6 @@
     }
   }
   .owl-carousel .owl-dots {
-    //display: block;
     position: absolute;
     bottom: -15%;
     left: 50%;
@@ -72,15 +71,15 @@
     align-items: center;
   }
 
-  .exclusive-carousel.owl-carousel .owl-dot{
+  .exclusive-carousel.owl-carousel .owl-dot {
     display: block;
     width: 10px;
     height: 10px;
-    border:solid 2px #34ce57;
+    border: solid 2px #34ce57;
     margin-right: 5px;
     border-radius: 50%;
-    &.active{
-      //background-color: transparent;
+
+    &.active {
       background-color: #34ce57;
       width: 15px;
       height: 15px;
@@ -120,8 +119,6 @@
     .row {
       .treiler {
         height: 200px;
-
-
       }
     }
   }
@@ -131,12 +128,15 @@
         margin-bottom: 20px;
       }
     }
-
   }
 }
 
-@media only screen and (max-width: 375px) {
-
+@media only screen and (max-width: 575px) {
+  .specifications {
+    .btn:first-of-type {
+      margin-bottom: 15px;
+    }
+  }
 
 }
 

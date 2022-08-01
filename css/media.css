@@ -76,5 +76,8 @@
 
   .specifications .row p {
     margin-bottom: 20px; } }
+@media only screen and (max-width: 575px) {
+  .specifications .btn:first-of-type {
+    margin-bottom: 15px; } }
 
 /*# sourceMappingURL=media.css.map */
