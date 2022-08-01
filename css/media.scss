@@ -46,13 +46,21 @@
   .design .container .row .col-lg-6 .btn-primary{
     margin-bottom: 0px;
   }
+  .owl-carousel .owl-text{
+    //margin-top: 300px;
+  }
 }
 
 @media only screen and (max-width: 770px) {
+  header{
+    padding: 0;
+  }
+  .owl-carousel .owl-text{
+    top: 50px;
+  }
   .value .value_cards .card {
     margin-bottom: 10px;
   }
-
   .exclusive-carousel .owl-nav button {
     display: none;
   }
@@ -139,19 +147,54 @@
       }
     }
   }
-}
-
-@media only screen and (max-width: 575px) {
   .specifications {
     .btn:first-of-type {
       margin-bottom: 15px;
     }
   }
+  .main .owl-carousel .owl-nav button.owl-prev, button.owl-next{
+    display: none;
+  }
+  .main .owl-carousel .owl-dots{
+    bottom: 5%;
+  }
+  .main .owl-carousel .owl-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #34ce57;
+    margin-right: 5px;
+    border-radius: 50%;
+    &.active {
+      background-color: #34ce57;
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
 
+@media only screen and (max-width: 420px) {
+  .main .owl-carousel .owl-dots{
+    bottom: 15%;
+  }
+
+  .owl-carousel .owl-text{
+    top: 150px;
+    .btn{
+      margin-top: 25px;
+    }
+  }
 }
 
 @media only screen and (max-width: 360px) {
+  .owl-carousel .owl-text{
+    top: 50px;
 
+    .btn{
+      margin-top: 50px;
+
+    }
+  }
 }
 
 @media only screen and (max-width: 320px) {

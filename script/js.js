@@ -12,7 +12,7 @@ $('.owl-carousel').owlCarousel({
             items:1,
             nav:true,
             autoplay:true,
-            autoplayTimeout:3500
+            autoplayTimeout:5500
         }
     }
 })
