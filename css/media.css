@@ -26,12 +26,32 @@
 
   .exclusive-card {
     margin: auto;
-    max-width: 200px !important; }
+    width: 100%; }
     .exclusive-card .btn {
       margin-top: 35px; }
 
   .video .row .treiler {
-    height: 400px; } }
+    height: 400px; }
+
+  .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-15%, -50%);
+    display: flex;
+    align-items: center; }
+
+  .exclusive-carousel.owl-carousel .owl-dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #34ce57;
+    margin-right: 5px;
+    border-radius: 50%; }
+    .exclusive-carousel.owl-carousel .owl-dot.active {
+      background-color: #34ce57;
+      width: 15px;
+      height: 15px; } }
 @media only screen and (max-width: 575px) {
   .design .container .row .col-lg-6 .btn-primary {
     max-width: 275px;

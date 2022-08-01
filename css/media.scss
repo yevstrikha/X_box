@@ -6,12 +6,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .exclusive .exclusive-carousel{
+  .exclusive .exclusive-carousel {
     margin: auto;
   }
-  .video{
-    .row{
-      .treiler{
+  .video {
+    .row {
+      .treiler {
         height: 500px;
 
       }
@@ -24,9 +24,9 @@
   .value .value_cards .card {
     margin: 10px;
   }
-  .video{
-    .row{
-      .treiler{
+  .video {
+    .row {
+      .treiler {
         height: 400px;
 
       }
@@ -46,66 +46,93 @@
 
     display: none;
   }
-  .exclusive-card{
+  .exclusive-card {
     margin: auto;
-    max-width: 200px!important;
-    .btn{
+    width: 100%;
+
+    .btn {
       margin-top: 35px;
     }
   }
-  .video{
-    .row{
-      .treiler{
+  .video {
+    .row {
+      .treiler {
         height: 400px;
 
       }
     }
   }
+  .owl-carousel .owl-dots {
+    //display: block;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-15%, -50%);
+    display: flex;
+    align-items: center;
+  }
+
+  .exclusive-carousel.owl-carousel .owl-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border:solid 2px #34ce57;
+    margin-right: 5px;
+    border-radius: 50%;
+    &.active{
+      //background-color: transparent;
+      background-color: #34ce57;
+      width: 15px;
+      height: 15px;
+    }
+  }
 }
 
 @media only screen and (max-width: 575px) {
-  .design .container .row .col-lg-6 .btn-primary{
+  .design .container .row .col-lg-6 .btn-primary {
     max-width: 275px;
     margin-right: 0;
     margin-bottom: 15px;
   }
 
-  footer{
-    .row{
+  footer {
+    .row {
       text-align: center;
     }
   }
-  .call_of_duty{
+  .call_of_duty {
     padding-bottom: 35px;
-    .row{
-      h2{
+
+    .row {
+      h2 {
         margin-bottom: 50px;
       }
     }
   }
-  .video{
+  .video {
     padding: 35px 0;
-    .row{
+
+    .row {
       margin: 0;
     }
   }
-  .video{
-    .row{
-      .treiler{
+  .video {
+    .row {
+      .treiler {
         height: 200px;
 
 
       }
     }
   }
-.specifications{
-  .row{
-    p{
-      margin-bottom: 20px;
+  .specifications {
+    .row {
+      p {
+        margin-bottom: 20px;
+      }
     }
-  }
 
-}
+  }
 }
 
 @media only screen and (max-width: 375px) {
