@@ -10,7 +10,10 @@
     justify-content: center; }
 
   .value .value_cards .card {
-    margin: 10px; } }
+    margin: 10px; }
+
+  .design .container .row .col-lg-6 .btn-primary {
+    margin-bottom: 15px; } }
 @media only screen and (max-width: 1024px) {
   .exclusive .exclusive-carousel {
     margin: auto; }
@@ -19,7 +22,10 @@
     height: 500px; } }
 @media only screen and (max-width: 992px) {
   .video .row .treiler {
-    height: 400px; } }
+    height: 400px; }
+
+  .design .container .row .col-lg-6 .btn-primary {
+    margin-bottom: 0px; } }
 @media only screen and (max-width: 770px) {
   .value .value_cards .card {
     margin-bottom: 10px; }
