@@ -48,11 +48,22 @@
   .owl-carousel .owl-text{
     margin-top: 300px;
   }
-}
+  .call_of_duty .row .btn:first-of-type{
+    max-width: 213px;
+    width: 100%;
+  }
+  .call_of_duty .row .btn:last-of-type{
+    margin: 0;
+  }
 
-@media only screen and (max-width: 770px) {
+  }
+
+@media only screen and (max-width: 776px) {
   header{
     padding: 0;
+  }
+  .call_of_duty .row .btn:first-of-type{
+    margin-bottom: 10px;
   }
   .owl-carousel .owl-text{
     margin-top: 50px;
@@ -102,6 +113,8 @@
       height: 15px;
     }
   }
+  .call_of_duty .row .btn:first-of-type{
+    margin-bottom: 0;}
 }
 
 @media only screen and (max-width: 575px) {
@@ -146,11 +159,6 @@
       }
     }
   }
-  .specifications {
-    .btn:first-of-type {
-      margin-bottom: 15px;
-    }
-  }
   .main .owl-carousel .owl-nav button.owl-prev, button.owl-next{
     display: none;
   }
@@ -172,18 +180,30 @@
   }
   .design .container .row .col-lg-6 .btn:first-of-type{
     margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  .call_of_duty .row .col-12 .btn{
+    margin-bottom: 15px;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
   .main .owl-carousel .owl-dots{
     bottom: 15%;
   }
-
+  .call_of_duty .row .btn:first-of-type{
+    margin-bottom: 15px;
+  }
   .owl-carousel .owl-text{
     top: 150px;
     .btn{
       margin-top: 25px;
+    }
+  }
+  .specifications {
+    .btn {
+      width: 100%;
+      margin: 7px 0;
     }
   }
 }
@@ -194,9 +214,14 @@
 
     .btn{
       margin-top: 50px;
-
     }
   }
+  .call_of_duty .row .col-12 .btn{
+    max-width: 100% ;
+    width: 100%;
+    margin: 15px 0;
+  }
+
 }
 
 @media only screen and (max-width: 320px) {

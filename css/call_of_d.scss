@@ -10,7 +10,7 @@ body{
   padding-bottom: 109px;
 
   .row {
-    .col-md-6{
+    .col-lg-6{
       text-align: center;
       margin-bottom: 22px;
 
@@ -20,13 +20,12 @@ body{
        margin-bottom: 208px;
     }
     .btn{
-      margin-top: 0;
-      background: #8DD83D;
+      margin: 0 15px;
     }
-    .btn-secondary{
-      background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-      margin-left: 15px;
-    }
+    //.btn-secondary{
+    //  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    //  margin-left: 15px;
+    //}
   }
 }
 
@@ -86,9 +85,6 @@ body{
     margin-top: 0;
     &:first-of-type{
       margin-right: 15px;
-    }
-    &:last-of-type{
-      background: #8DD83D;
     }
   }
 }
