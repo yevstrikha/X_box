@@ -24,7 +24,7 @@
   .video .row .treiler {
     height: 400px; }
 
-  .design .container .row .col-lg-6 .btn-primary {
+  .design .container .row .col-lg-6 .btn:first-of-type {
     margin-bottom: 0px; }
 
   .owl-carousel .owl-text {
@@ -114,7 +114,10 @@
     .main .owl-carousel .owl-dot.active {
       background-color: #34ce57;
       width: 15px;
-      height: 15px; } }
+      height: 15px; }
+
+  .design .container .row .col-lg-6 .btn:first-of-type {
+    margin-bottom: 15px; } }
 @media only screen and (max-width: 420px) {
   .main .owl-carousel .owl-dots {
     bottom: 15%; }

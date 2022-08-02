@@ -39,11 +39,10 @@
     .row {
       .treiler {
         height: 400px;
-
       }
     }
   }
-  .design .container .row .col-lg-6 .btn-primary{
+  .design .container .row .col-lg-6 .btn:first-of-type{
     margin-bottom: 0px;
   }
   .owl-carousel .owl-text{
@@ -170,6 +169,9 @@
       width: 15px;
       height: 15px;
     }
+  }
+  .design .container .row .col-lg-6 .btn:first-of-type{
+    margin-bottom: 15px;
   }
 }
 
