@@ -508,3 +508,7 @@ footer {
   background-color: #8DD83D;
   border-color: #8DD83D;
 }
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow:none;
+}

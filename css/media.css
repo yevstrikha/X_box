@@ -21,6 +21,12 @@
   .video .row .treiler {
     height: 500px; } }
 @media only screen and (max-width: 992px) {
+  .main_screen {
+    background-position: center center; }
+
+  .screen_one {
+    background-position: center right; }
+
   .video .row .treiler {
     height: 400px; }
 
