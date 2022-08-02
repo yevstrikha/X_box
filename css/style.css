@@ -338,4 +338,8 @@ footer {
     background-color: #8DD83D;
     margin-top: 12px; }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #8DD83D;
+  border-color: #8DD83D; }
+
 /*# sourceMappingURL=style.css.map */
