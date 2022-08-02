@@ -343,4 +343,25 @@ footer {
   outline: 0;
   box-shadow: none; }
 
+.navbar-light .navbar-toggler {
+  border-radius: 0;
+  border-bottom: #8DD83D solid 2px;
+  border-top: #8DD83D solid 2px;
+  border-right: 0;
+  border-left: 0;
+  padding: 0;
+  position: relative; }
+  .navbar-light .navbar-toggler:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    background-color: #8DD83D; }
+
+.navbar-light .navbar-toggler-icon {
+  background: none; }
+
 /*# sourceMappingURL=style.css.map */
