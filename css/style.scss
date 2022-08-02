@@ -118,8 +118,10 @@ header {
   background: url(../images/Star-Wars.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
-  .btn{
-    padding: 10px 20px;
+  .owl-text{
+    .btn{
+      padding: 10px 20px;
+    }
   }
 }
 
@@ -396,7 +398,10 @@ header {
     }
   }
 }
-
+.btn-primary.focus, .btn-primary:focus{
+  background: none;
+  border: none;
+}
 
 footer {
   background-color: #373a3c;
