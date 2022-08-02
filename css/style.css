@@ -274,7 +274,6 @@ header {
     height: 100%; }
 
 .btn-primary.focus, .btn-primary:focus {
-  background: none;
   border: none; }
 
 footer {
@@ -326,11 +325,9 @@ footer {
         color: #ffffff;
         margin-bottom: 0; }
 
-.navbar-light .navbar-toggler-icon {
-  background: none;
-  border-top: solid 2px #8DD83D;
-  border-bottom: solid 2px #8DD83D; }
-  .navbar-light .navbar-toggler-icon:after {
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none; }
+  .btn-primary:not(:disabled):not(.disabled).active:focus:after, .btn-primary:not(:disabled):not(.disabled):active:focus:after, .show > .btn-primary.dropdown-toggle:focus:after {
     content: '-';
     display: block;
     height: 2px;

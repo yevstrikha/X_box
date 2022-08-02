@@ -409,7 +409,6 @@ header {
 }
 
 .btn-primary.focus, .btn-primary:focus {
-  background: none;
   border: none;
 }
 
@@ -488,10 +487,8 @@ footer {
 }
 
 
-.navbar-light .navbar-toggler-icon {
-  background: none;
-  border-top: solid 2px #8DD83D;
-  border-bottom: solid 2px #8DD83D;
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
 
 
   &:after {
