@@ -13,7 +13,6 @@
 
 $main_font: 'HelveticaNeue';
 
-
 h1 {
   font-family: $main_font;
   color: white;
@@ -280,6 +279,7 @@ header {
   padding-top: 97px;
   padding-bottom: 140px;
   position: relative;
+  overflow-y: hidden;
 
   .exclusive_cover {
     position: absolute;
@@ -293,7 +293,6 @@ header {
 
   .exclusive-carousel {
     margin-left: 67px;
-
   }
 
   .exclusive-content {

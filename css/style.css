@@ -194,7 +194,8 @@ header {
   background-size: cover;
   padding-top: 97px;
   padding-bottom: 140px;
-  position: relative; }
+  position: relative;
+  overflow-y: hidden; }
   .exclusive .exclusive_cover {
     position: absolute;
     top: 0;
