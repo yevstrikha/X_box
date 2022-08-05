@@ -1,5 +1,3 @@
-@import url(call_of_d.css);
-@import url(media.css);
 @font-face {
   font-family: 'HelveticaNeue';
   src: url("../fonts/HelveticaNeueRegular.eot");
@@ -90,7 +88,7 @@ header {
   background-size: cover;
   height: 100vh;
   position: relative; }
-  .main_screen .owl-text .btn {
+  .main_screen .btn {
     padding: 10px 20px; }
 
 .screen_one {
@@ -374,5 +372,8 @@ footer {
 
 .exclusive-carousel .owl-stage-outer {
   padding: 15px 0; }
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #8DD83D; }
 
 /*# sourceMappingURL=style.css.map */

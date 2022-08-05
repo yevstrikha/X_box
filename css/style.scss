@@ -10,8 +10,6 @@
   font-style: normal;
   font-display: swap;
 }
-@import "call_of_d.css";
-@import "media.css";
 
 
 $main_font: 'HelveticaNeue';
@@ -121,10 +119,8 @@ header {
   background-size: cover;
   height: 100vh;
   position: relative;
-   .owl-text {
     .btn {
       padding: 10px 20px;
-    }
   }
 }
 
@@ -545,4 +541,7 @@ footer {
 
 .exclusive-carousel .owl-stage-outer{
   padding: 15px 0;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+  background-color: #8DD83D;
 }
