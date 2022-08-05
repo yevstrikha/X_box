@@ -6,16 +6,16 @@
   .value .value_cards .card {
     margin: 0 10px;
   }
-  .value .value_cards{
+  .value .value_cards {
     justify-content: center;
   }
   .value .value_cards .card {
     margin: 10px;
   }
-  .design .container .row .col-lg-6 .btn-primary{
+  .design .container .row .col-lg-6 .btn-primary {
     margin-bottom: 15px;
   }
-  .owl-carousel .owl-text{
+  .owl-carousel .owl-text {
     margin-top: 130px;
   }
 }
@@ -28,7 +28,6 @@
     .row {
       .treiler {
         height: 500px;
-
       }
     }
   }
@@ -37,10 +36,10 @@
 
 
 @media only screen and (max-width: 992px) {
-  .main_screen{
+  .main_screen {
     background-position: center center;
   }
-  .screen_one{
+  .screen_one {
     background-position: center right;
   }
   .video {
@@ -50,42 +49,49 @@
       }
     }
   }
-  .design .container .row .col-lg-6 .btn:first-of-type{
+  .design .container .row .col-lg-6 .btn:first-of-type {
     margin-bottom: 0px;
   }
-  .owl-carousel .owl-text{
+  .owl-carousel .owl-text {
     margin-top: 200px;
-    h2{
+
+    h2 {
       font-family: Arial, sans-serif;
     }
   }
-  .call_of_duty .row .btn:first-of-type{
+  .call_of_duty .row .btn:first-of-type {
     max-width: 213px;
     width: 100%;
   }
-  .call_of_duty .row .btn:last-of-type{
+  .call_of_duty .row .btn:last-of-type {
     margin: 0;
   }
-  .call_of_duty{
+  .call_of_duty {
     padding-bottom: 0;
-    .row{
-h2{
-  margin-bottom: 100px;
-}
+
+    .row {
+      h2 {
+        margin-bottom: 100px;
+      }
     }
   }
-
-
+.exclusive {
+  .exclusive-content{
+    .card:hover{
+      transform: scale(1);
+    }
   }
+}
+}
 
 @media only screen and (max-width: 776px) {
-  header{
+  header {
     padding: 0;
   }
-  .call_of_duty .row .btn:first-of-type{
+  .call_of_duty .row .btn:first-of-type {
     margin-bottom: 10px;
   }
-  .owl-carousel .owl-text{
+  .owl-carousel .owl-text {
     margin-top: 50px;
   }
   .value .value_cards .card {
@@ -133,8 +139,9 @@ h2{
       height: 15px;
     }
   }
-  .call_of_duty .row .btn:first-of-type{
-    margin-bottom: 0;}
+  .call_of_duty .row .btn:first-of-type {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -179,45 +186,46 @@ h2{
       }
     }
   }
-  .main .owl-carousel .owl-nav button.owl-prev, button.owl-next{
+  .main .owl-carousel .owl-nav button.owl-prev, button.owl-next {
     display: none;
   }
-  .main .owl-carousel .owl-dots{
+  .main .owl-carousel .owl-dots {
     bottom: 5%;
   }
-  .main .owl-carousel .owl-dot{
+  .main .owl-carousel .owl-dot {
     display: block;
     width: 10px;
     height: 10px;
     border: solid 2px #34ce57;
     margin-right: 5px;
     border-radius: 50%;
+
     &.active {
       background-color: #34ce57;
       width: 15px;
       height: 15px;
     }
   }
-  .design .container .row .col-lg-6 .btn:first-of-type{
+  .design .container .row .col-lg-6 .btn:first-of-type {
     margin-bottom: 15px;
     margin-right: 15px;
   }
-  .call_of_duty .row .col-12 .btn{
+  .call_of_duty .row .col-12 .btn {
     margin-bottom: 15px;
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .main .owl-carousel .owl-dots{
+  .main .owl-carousel .owl-dots {
     bottom: 15%;
   }
-  .call_of_duty .row .btn:first-of-type{
+  .call_of_duty .row .btn:first-of-type {
     margin-bottom: 15px;
   }
-  .owl-carousel .owl-text{
+  .owl-carousel .owl-text {
     top: 150px;
 
-    .btn{
+    .btn {
       margin-top: 100px;
     }
   }
@@ -227,8 +235,8 @@ h2{
       margin: 7px 0;
     }
   }
-  .call_of_duty .row .col-12 .btn{
-    max-width: 100% ;
+  .call_of_duty .row .col-12 .btn {
+    max-width: 100%;
     width: 100%;
     margin: 15px 0;
   }
@@ -236,12 +244,14 @@ h2{
 }
 
 @media only screen and (max-width: 360px) {
-  .owl-carousel .owl-text{
+  .owl-carousel .owl-text {
     top: 50px;
-    h3{
+
+    h3 {
       margin-bottom: 50px;
     }
-    .btn{
+
+    .btn {
       margin-top: 20px;
     }
   }
