@@ -42,7 +42,6 @@
   }
   .screen_one{
     background-position: center right;
-
   }
   .video {
     .row {
@@ -56,6 +55,9 @@
   }
   .owl-carousel .owl-text{
     margin-top: 200px;
+    h2{
+      font-family: Arial, sans-serif;
+    }
   }
   .call_of_duty .row .btn:first-of-type{
     max-width: 213px;

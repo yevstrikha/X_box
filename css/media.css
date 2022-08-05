@@ -38,6 +38,8 @@
 
   .owl-carousel .owl-text {
     margin-top: 200px; }
+    .owl-carousel .owl-text h2 {
+      font-family: Arial, sans-serif; }
 
   .call_of_duty .row .btn:first-of-type {
     max-width: 213px;

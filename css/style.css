@@ -86,13 +86,24 @@ header {
 .main_screen {
   background: url(../images/Star-Wars.jpg) no-repeat;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
   .main_screen .owl-text .btn {
     padding: 10px 20px; }
 
 .screen_one {
   background: url(../images/CoD-WWII.jpg) no-repeat;
   background-size: cover; }
+  .screen_one:before {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.25; }
 
 .owl-carousel {
   position: relative; }
