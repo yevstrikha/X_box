@@ -51,7 +51,12 @@
   .call_of_duty {
     padding-bottom: 0; }
     .call_of_duty .row h2 {
-      margin-bottom: 100px; } }
+      margin-bottom: 100px; }
+
+  .exclusive-carousel .card {
+    opacity: 100%; }
+    .exclusive-carousel .card:hover {
+      transform: scale(1); } }
 @media only screen and (max-width: 776px) {
   header {
     padding: 0; }
