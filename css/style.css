@@ -126,7 +126,7 @@ header {
     font-weight: 900;
     content: "\f078";
     display: inline-block;
-    color: #a7f356;
+    color: #8fe731;
     transform: rotate(90deg);
     font-size: 25px; }
   .owl-carousel span {
@@ -210,6 +210,9 @@ header {
     z-index: 2; }
     .exclusive .exclusive-content .card {
       opacity: 90%; }
+      .exclusive .exclusive-content .card:hover {
+        opacity: 100%;
+        transform: scale(1.1); }
     .exclusive .exclusive-content .card-body .btn-primary {
       background: #8DD83D;
       margin-top: 43px;
@@ -223,7 +226,7 @@ header {
         margin-top: 74px; }
     .exclusive .exclusive-content h2 {
       text-align: center;
-      margin-bottom: 54px; }
+      margin-bottom: 35px; }
     .exclusive .exclusive-content .exclusive-card img {
       max-height: 180px;
       max-width: 320px;
@@ -363,5 +366,8 @@ footer {
 
 .navbar-light .navbar-toggler-icon {
   background: none; }
+
+.exclusive-carousel .owl-stage-outer {
+  padding: 15px 0; }
 
 /*# sourceMappingURL=style.css.map */

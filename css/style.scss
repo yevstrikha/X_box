@@ -173,7 +173,7 @@ header {
     font-weight: 900;
     content: "\f078";
     display: inline-block;
-    color: #a7f356;
+    color: #8fe731;
     transform: rotate(90deg);
     font-size: 25px;
   }
@@ -302,6 +302,11 @@ header {
 
     .card {
       opacity: 90%;
+
+      &:hover {
+        opacity: 100%;
+        transform: scale(1.1);
+      }
     }
 
     .card-body .btn-primary {
@@ -325,7 +330,7 @@ header {
 
     h2 {
       text-align: center;
-      margin-bottom: 54px;
+      margin-bottom: 35px;
     }
 
     .exclusive-card {
@@ -487,7 +492,7 @@ footer {
 }
 
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: none;
 
 
@@ -505,20 +510,22 @@ footer {
   background-color: #8DD83D;
   border-color: #8DD83D;
 }
+
 .btn.focus, .btn:focus {
   outline: 0;
-  box-shadow:none;
+  box-shadow: none;
 }
 
-.navbar-light .navbar-toggler{
+.navbar-light .navbar-toggler {
   border-radius: 0;
   border-bottom: #8DD83D solid 2px;
   border-top: #8DD83D solid 2px;
-border-right: 0;
+  border-right: 0;
   border-left: 0;
   padding: 0;
   position: relative;
-  &:before{
+
+  &:before {
     position: absolute;
     top: 50%;
     left: 0;
@@ -529,6 +536,11 @@ border-right: 0;
     background-color: #8DD83D;
   }
 }
-.navbar-light .navbar-toggler-icon{
+
+.navbar-light .navbar-toggler-icon {
   background: none;
+}
+
+.exclusive-carousel .owl-stage-outer{
+  padding: 15px 0;
 }
